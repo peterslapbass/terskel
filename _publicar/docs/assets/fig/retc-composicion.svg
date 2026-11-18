@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="498.96pt" height="130.42711pt" viewBox="0 0 498.96 130.42711" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-17T08:44:42.665636</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 130.42711 
+L 498.96 130.42711 
+L 498.96 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7.2 100.2532 
+L 491.76 100.2532 
+L 491.76 7.2 
+L 7.2 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 7.2 78.779385 
+L 278.761644 78.779385 
+L 278.761644 42.989692 
+L 7.2 42.989692 
+z
+" clip-path="url(#p562ec8d99e)" style="fill: #1f4e79"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 278.761644 78.779385 
+L 473.583231 78.779385 
+L 473.583231 42.989692 
+L 278.761644 42.989692 
+z
+" clip-path="url(#p562ec8d99e)" style="fill: #b7791f"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 473.583231 78.779385 
+L 491.76 78.779385 
+L 491.76 42.989692 
+L 473.583231 42.989692 
+z
+" clip-path="url(#p562ec8d99e)" style="fill: #6b7280"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <text style="fill: #ffffff; font: 700 13px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="142.980822" y="64.20157" transform="rotate(-0 142.980822 64.20157)">56%</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #ffffff; font: 700 13px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="376.172437" y="64.20157" transform="rotate(-0 376.172437 64.20157)">40%</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #1a1a1a; font: 9px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="482.671615" y="37.979135" transform="rotate(-0 482.671615 37.979135)">4%</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_6">
+     <path d="M 14.4 118.14461 
+L 21.6 118.14461 
+L 21.6 112.54461 
+L 14.4 112.54461 
+z
+" style="fill: #1f4e79; stroke: #1f4e79; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="fill: #1a1a1a; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: start" x="28" y="118.14461" transform="rotate(-0 28 118.14461)">Industria (14 categorías) · 25,2 Mt</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 155.28375 118.14461 
+L 162.48375 118.14461 
+L 162.48375 112.54461 
+L 155.28375 112.54461 
+z
+" style="fill: #b7791f; stroke: #b7791f; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="fill: #1a1a1a; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: start" x="168.88375" y="118.14461" transform="rotate(-0 168.88375 118.14461)">Generación eléctrica · 18,1 Mt</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 282.82875 118.14461 
+L 290.02875 118.14461 
+L 290.02875 112.54461 
+L 282.82875 112.54461 
+z
+" style="fill: #6b7280; stroke: #6b7280; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="fill: #1a1a1a; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: start" x="296.42875" y="118.14461" transform="rotate(-0 296.42875 118.14461)">Servicios y otros · 1,7 Mt</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p562ec8d99e">
+   <rect x="7.2" y="7.2" width="484.56" height="93.0532"/>
+  </clipPath>
+ </defs>
+</svg>

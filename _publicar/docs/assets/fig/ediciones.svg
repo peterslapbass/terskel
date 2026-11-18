@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="498.332812pt" height="203.132812pt" viewBox="0 0 498.332812 203.132812" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-17T08:44:42.827356</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 203.132812 
+L 498.332812 203.132812 
+L 498.332812 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 19.932813 183.7 
+L 491.132813 183.7 
+L 491.132813 7.2 
+L 19.932813 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #4b5563; font: 9px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="95.695635" y="193.862812" transform="rotate(-0 95.695635 193.862812)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #4b5563; font: 9px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="255.532813" y="193.862812" transform="rotate(-0 255.532813 193.862812)">2024</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #4b5563; font: 9px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="415.36999" y="193.862812" transform="rotate(-0 415.36999 193.862812)">2025</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="text_4">
+     <text style="fill: #6b7280; font: 9px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="13.862813" y="95.45" transform="rotate(-90 13.862813 95.45)">Mt CO₂</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 41.350994 183.7 
+L 95.695635 183.7 
+L 95.695635 23.281032 
+L 41.350994 23.281032 
+z
+" clip-path="url(#p7846c3c936)" style="fill: #c9ced6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 201.188172 183.7 
+L 255.532813 183.7 
+L 255.532813 64.286874 
+L 201.188172 64.286874 
+z
+" clip-path="url(#p7846c3c936)" style="fill: #c9ced6"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 361.02535 183.7 
+L 415.36999 183.7 
+L 415.36999 68.446414 
+L 361.02535 68.446414 
+z
+" clip-path="url(#p7846c3c936)" style="fill: #c9ced6"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 95.695635 183.7 
+L 150.040275 183.7 
+L 150.040275 65.004497 
+L 95.695635 65.004497 
+z
+" clip-path="url(#p7846c3c936)" style="fill: #1f4e79"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 255.532813 183.7 
+L 309.877453 183.7 
+L 309.877453 73.458398 
+L 255.532813 73.458398 
+z
+" clip-path="url(#p7846c3c936)" style="fill: #1f4e79"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 415.36999 183.7 
+L 469.714631 183.7 
+L 469.714631 68.621132 
+L 415.36999 68.621132 
+z
+" clip-path="url(#p7846c3c936)" style="fill: #1f4e79"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 19.932813 183.7 
+L 19.932813 7.2 
+" style="fill: none; stroke: #d1d5db; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 19.932812 183.7 
+L 491.132813 183.7 
+" style="fill: none; stroke: #d1d5db; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="fill: #6b7280; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="68.523315" y="19.441032" transform="rotate(-0 68.523315 19.441032)">65,4</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6b7280; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="228.360492" y="60.446874" transform="rotate(-0 228.360492 60.446874)">48,7</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #6b7280; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="388.19767" y="64.606414" transform="rotate(-0 388.19767 64.606414)">47,0</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #1f4e79; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="122.867955" y="61.164497" transform="rotate(-0 122.867955 61.164497)">48,4</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #1f4e79; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="282.705133" y="69.618398" transform="rotate(-0 282.705133 69.618398)">45,0</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #1f4e79; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: middle" x="442.54231" y="64.781132" transform="rotate(-0 442.54231 64.781132)">46,9</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_11">
+     <path d="M 388.391563 20.3225 
+L 404.391563 20.3225 
+L 404.391563 14.7225 
+L 388.391563 14.7225 
+z
+" style="fill: #c9ced6"/>
+    </g>
+    <g id="text_11">
+     <text style="fill: #1a1a1a; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: start" x="410.791563" y="20.3225" transform="rotate(-0 410.791563 20.3225)">declarado</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 388.391563 32.085 
+L 404.391563 32.085 
+L 404.391563 26.485 
+L 388.391563 26.485 
+z
+" style="fill: #1f4e79"/>
+    </g>
+    <g id="text_12">
+     <text style="fill: #1a1a1a; font: 8px 'Segoe UI', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif; text-anchor: start" x="410.791563" y="32.085" transform="rotate(-0 410.791563 32.085)">ajustado por cribado</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7846c3c936">
+   <rect x="19.932813" y="7.2" width="471.2" height="176.5"/>
+  </clipPath>
+ </defs>
+</svg>

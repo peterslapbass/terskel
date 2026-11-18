@@ -1,0 +1,10 @@
+parametro;descripcion;unidad;central;minimo;maximo;recomposicion;fuente
+g_vbp;Crecimiento anual del VBP real, referencia agregada;fraccion_anual;0.02;0.00;0.03;;Banda exógena. Se usa para calibrar el vector por rama, no para proyectar
+g_papel;Crecimiento anual del VBP real de Papel y Celulosa;fraccion_anual;0.0303;0.00;0.04;0.025;Calibrado para que el agregado ponderado por VBP quede en 2,0%/año
+g_lactea;Crecimiento anual del VBP real de Industria Láctea;fraccion_anual;0.01;0.00;0.03;0.015;Sector en expansión, 2024 con +5,6% de VBP real
+g_cemento;Crecimiento anual del VBP real de Cemento;fraccion_anual;-0.03;-0.06;0.00;-0.05;Consolidación: 6 a 4 establecimientos en la ENIA entre 2023 y 2024
+g_siderurgia;Crecimiento anual del VBP real de Siderurgia;fraccion_anual;0.00;-0.02;0.02;-0.02;Huachipato no declara carbón ni coque. Rama plana en el escenario central
+mi;Mejora anual de la intensidad energética (TJ por peso);fraccion_anual;0.015;0.005;0.025;;Rango de programas de eficiencia energética (Ley 21.305)
+mf;Mejora anual del factor de emisión (tCO2 por TJ);fraccion_anual;0.010;0.000;0.020;;Sustitución de combustibles y electrificación, rango conservador
+anio_base;Año de partida del escenario;anio;2024;2024;2024;;Último año con las tres fuentes completas
+anio_meta;Año de llegada del escenario;anio;2030;2030;2030;;Horizonte acordado

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != "Terskel" %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
+  <link rel="stylesheet" href="{{ '/assets/estilo.css' | relative_url }}">
+</head>
+<body>
+
+<header class="barra">
+  <a class="marca" href="{{ '/' | relative_url }}">
+    <span class="nombre" style="font-size: 2.2rem;">Terskel</span>
+    <span class="lema">{{ site.tagline }}</span>
+  </a>
+  <nav class="menu">
+    <a href="{{ '/notas/' | relative_url }}">Notas</a>
+    <a href="{{ '/resultados/' | relative_url }}">Resultados</a>
+    <a href="{{ '/fuentes/' | relative_url }}">Fuentes</a>
+    <a href="{{ '/datos.html' | relative_url }}">Datos</a>
+    <a href="{{ '/metodologia.html' | relative_url }}">Método</a>
+    <a href="{{ '/abierto.html' | relative_url }}">Abierto</a>
+  </nav>
+</header>
+
+<main class="contenido">
+{{ content }}
+</main>
+
+<footer class="barra pie">
+  <p><strong>Fuente:</strong> RETC (MMA), Balance Nacional de Energía (CNE),
+  ENIA e IPP (INE) y dólar observado (BCCh). Ninguna de esas instituciones
+  participa ni respalda este sitio.</p>
+  <p><a href="https://github.com/peterslapbass/terskel">Código y datos</a> ·
+  código MIT · cifras CC BY 4.0 · datos del RETC bajo ODbL.</p>
+</footer>
+
+</body>
+</html>

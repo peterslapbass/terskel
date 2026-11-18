@@ -1,0 +1,30 @@
+title: Terskel
+tagline: Emisiones y energía de la industria chilena
+description: >-
+  Cuánto emite y cuánto consume la industria chilena, con datos abiertos y
+  cuentas reproducibles. RETC, Balance Nacional de Energía, ENIA e IPP.
+
+url: "https://peterslapbass.github.io"
+baseurl: "/terskel"
+lang: es-CL
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md

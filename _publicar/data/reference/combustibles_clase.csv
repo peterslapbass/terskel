@@ -1,0 +1,33 @@
+combustible;clase;nota
+GAS LICUADO DE PETROLEO;fosil;GLP
+GAS NATURAL;fosil;
+CARBON BITUMINOSO PULVERIZADO;fosil;carbón pulverizado, uso típico en cemento
+CARBON BITUMINOSO;fosil;
+CARBON SUB BITUMINOSO;fosil;
+COKE DE PETROLEO (PETCOKE);fosil;
+CARBON COKE;fosil;coque de carbón, volumen despreciable
+COQUE DE CRACKING;fosil;
+PETROLEO N 2 (DIESEL);fosil;
+PETROLEO N 5;fosil;fuel oil
+PETROLEO N 6;fosil;fuel oil
+MDO (MARINE DIESEL OIL);fosil;
+KEROSENE;fosil;
+BENCINA;fosil;
+PROPANO;fosil;
+METANOL;fosil;se produce desde gas natural
+GAS DE REFINERIA;fosil;gas de proceso de refinería
+GAS DE COQUE;fosil;
+GAS DE COQUE DILUIDO;fosil;
+GAS DE ALTO HORNO;fosil;siderurgia
+GAS DE CANERIA;fosil;gas de cañería, sinónimo de gas natural distribuido
+LICOR NEGRO;biomasa;subproducto de la celulosa, quema en recuperadora
+BIOMASA COMBUSTIBLE;biomasa;
+ASERRIN;biomasa;
+VIRUTA, DESPUNTES;biomasa;
+LENA;biomasa;
+CARBON DE LENA;biomasa;carbón vegetal
+BIOGAS;biomasa;
+TALL OIL;biomasa;subproducto de la celulosa
+ACEITE USADO;otro;residuo líquido, convención variable entre inventarios
+COMBUSTIBLE SOLIDO ALTERNATIVO;otro;derivado de residuos, origen mixto
+BECSA;otro;sin identificar, volumen despreciable

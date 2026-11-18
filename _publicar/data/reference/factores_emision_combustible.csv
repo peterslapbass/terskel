@@ -1,0 +1,33 @@
+combustible;grupo_bne;clase;ef_carbono_kg_c_gj;fuente;nota
+GAS LICUADO DE PETROLEO;Gas Licuado;fosil;17.2;Guía RETC Tabla 4-3;IPCC 2006
+PROPANO;Gas Licuado;fosil;17.2;Guía RETC Tabla 4-3;se asume igual al GLP
+GAS NATURAL;Gas Natural;fosil;15.3;Guía RETC Tabla 4-3;gas natural procesado
+GAS DE CANERIA;Gas Natural;fosil;15.3;Guía RETC Tabla 4-3;gas de cañería
+PETROLEO N 2 (DIESEL);Petróleo Diesel;fosil;20.2;Guía RETC Tabla 4-3;Diésel A1/B1
+MDO (MARINE DIESEL OIL);Petróleo Diesel;fosil;20.2;Guía RETC Tabla 4-3;se asume igual al diésel
+PETROLEO N 5;Petróleo Combustible;fosil;21.1;IPCC 2006;la guía deja PC5 en N/A, se usa PC6
+PETROLEO N 6;Petróleo Combustible;fosil;21.1;Guía RETC Tabla 4-3;
+CARBON BITUMINOSO;Carbón;fosil;26.6;Guía RETC Tabla 4-3;
+CARBON BITUMINOSO PULVERIZADO;Carbón;fosil;26.6;Guía RETC Tabla 4-3;
+CARBON SUB BITUMINOSO;Carbón;fosil;26.6;Guía RETC Tabla 4-3;
+CARBON COKE;Carbón;fosil;26.6;Guía RETC Tabla 4-3;coque de carbón
+COKE DE PETROLEO (PETCOKE);Coque de Petróleo;fosil;26.6;Guía RETC Tabla 4-3;
+COQUE DE CRACKING;Coque de Petróleo;fosil;26.6;Guía RETC Tabla 4-3;se asume igual al petcoke
+KEROSENE;Kerosene;fosil;19.5;Guía RETC Tabla 4-3;
+BENCINA;Gasolina de Motor;fosil;18.9;Guía RETC Tabla 4-3;
+GAS DE REFINERIA;Gas de Refinería;fosil;15.7;Guía RETC Tabla 4-3;
+GAS DE COQUE;Gas Coque;fosil;29.2;Guía RETC Tabla 4-3;
+GAS DE COQUE DILUIDO;Gas Coque;fosil;29.2;Guía RETC Tabla 4-3;
+GAS DE ALTO HORNO;Gas de Altos Hornos;fosil;70.8;Guía RETC Tabla 4-3;gas pobre, alto carbono por GJ
+LICOR NEGRO;Licor Negro;biomasa;27.9;Guía RETC Tabla 4-3;se usa el factor genérico de biomasa
+BIOMASA COMBUSTIBLE;Biomasa;biomasa;27.9;Guía RETC Tabla 4-3;
+ASERRIN;Biomasa;biomasa;27.9;Guía RETC Tabla 4-3;
+VIRUTA, DESPUNTES;Biomasa;biomasa;27.9;Guía RETC Tabla 4-3;
+LENA;Biomasa;biomasa;27.9;Guía RETC Tabla 4-3;
+CARBON DE LENA;Biomasa;biomasa;27.9;Guía RETC Tabla 4-3;carbón vegetal
+TALL OIL;Biomasa;biomasa;27.9;Guía RETC Tabla 4-3;subproducto de celulosa
+BIOGAS;Biogás;biomasa;19.3;Guía RETC Tabla 4-3;
+ACEITE USADO;;otro;;;sin factor en la guía
+COMBUSTIBLE SOLIDO ALTERNATIVO;;otro;;;origen mixto, sin factor único
+BECSA;;otro;;;sin identificar
+METANOL;;otro;;;sin factor en la guía Tabla 4-3
