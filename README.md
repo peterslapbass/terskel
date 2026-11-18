@@ -1,7 +1,7 @@
-# INTERACTION — Inteligencia industrial con datos públicos (Chile)
+# Terskel — Inteligencia industrial con datos públicos (Chile)
 
 Base analítica reproducible que integra actividad industrial, energía y emisiones
-a partir de fuentes públicas chilenas. Proyecto por etapas: **primero datos,
+a partir de fuentes públicas chilenas. El nombre <strong>Terskel</strong> (umbral) refleja el enfoque del proyecto: relacionar los umbrales de emisiones y la eficiencia industrial en Chile mediante la unión de diversas fuentes de datos. Proyecto por etapas: **primero datos,
 después indicadores, y solo entonces modelos**.
 
 Estado actual: **piloto completo hasta escenarios**. RETC normalizado

@@ -4,6 +4,8 @@ title: Terskel
 
 <h1 style="font-size: 2rem;">Qué emite la industria chilena, y qué no alcanza a contar el registro</h1>
 
+<p><strong>Terskel</strong> (umbral) es un proyecto de análisis de emisiones y eficiencia industrial en Chile. Su objetivo es relacionar los umbrales de emisión con la eficiencia productiva uniendo diversas fuentes públicas para construir una base analítica coherente y reproducible.</p>
+
 Catorce categorías industriales, cinco fuentes públicas y una regla: ningún número se publica sin su ficha, su unidad y su límite. Año de referencia **2024**.
 
 <div class="cifras">
