@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es-CL" data-mode="technical">
+<html lang="es-CL">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,34 +22,7 @@
     <a href="{{ '/metodologia.html' | relative_url }}">Método</a>
     <a href="{{ '/abierto.html' | relative_url }}">Abierto</a>
   </nav>
-  <div class="mode-toggle-container">
-    <span class="mode-label">Modo: </span>
-    <a class="mode-toggle" id="modeToggle" onclick="toggleMode()">📖 Modo explicado</a>
-  </div>
 </header>
-
-<script>
-function toggleMode() {
-  const html = document.documentElement;
-  const current = html.getAttribute('data-mode');
-  const newMode = current === 'technical' ? 'simple' : 'technical';
-  html.setAttribute('data-mode', newMode);
-  
-  // Ocultar/mostrar divs directamente
-  const techOnly = document.querySelectorAll('.tech-only');
-  const plainOnly = document.querySelectorAll('.plain-only');
-  
-  if (newMode === 'simple') {
-    techOnly.forEach(el => el.style.display = 'none');
-    plainOnly.forEach(el => el.style.display = 'block');
-    document.querySelector('.mode-toggle').textContent = '📊 Modo técnico';
-  } else {
-    techOnly.forEach(el => el.style.display = 'block');
-    plainOnly.forEach(el => el.style.display = 'none');
-    document.querySelector('.mode-toggle').textContent = '📖 Modo explicado';
-  }
-}
-</script>
 
 <main class="contenido">
 {{ content }}

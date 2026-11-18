@@ -4,7 +4,6 @@ title: "Ficha — Energía implícita en el CO₂ del RETC"
 
 # Ficha — Energía implícita en el CO₂ del RETC
 
-<div class="tech-only">
 <p><strong>Objetivo:</strong> reconstruir TJ quemados a partir del CO₂ y contrastarlos con el BNE</p>
 <p><strong>Factores:</strong> Tabla 4-3 de la <em>Guía metodológica</em> (MMA/Greenlab 2021)</p>
 <p><strong>Cobertura:</strong> 2024 · 7 ramas manufactureras (CIIU 10–33)</p>
@@ -53,21 +52,3 @@ python src/normalize/retc_energia.py
 </code></pre>
 
 <p>Salidas: `data/processed/retc/energia_implicita.parquet`, `reports/retc_energia_implicita.json`.</p>
-</div>
-
-<div class="plain-only">
-<h3>¿Qué es la energía implícita en las emisiones?</h3>
-<p>En palabras simples: es una forma de calcular cuánta energía debió quemarse para producir las emisiones de CO₂ que se declararon. Es como hacer el cálculo inverso: si sabemos cuánto CO₂ salió por la chimenea, ¿cuánta energía se necesitaba para producir ese CO₂?</p>
-
-<p><strong>¿Por qué hacemos esto?</strong> Para verificar que las emisiones declaradas tengan sentido. Si una fábrica declara muchas emisiones de CO₂, la energía implícita nos dice si eso es consistente con la cantidad de combustible que debería haber quemado. Es una "prueba de realidad" para los datos.</p>
-
-<p><strong>¿Cómo se calcula?</strong> Se usa una fórmula de la guía metodológica del MMA (Ministerio de Medio Ambiente) que relaciona el CO₂ emitido con la energía quemada. La fórmula considera el contenido de carbono del combustible y convierte las unidades de energía a emisiones de CO₂.</p>
-
-<p><strong>¿Qué nos dice el resultado?</strong> Para las 7 ramas manufactureras más importantes (papel, cemento, acero, petroquímica, alimentos, textiles y ladrillos), calculamos cuánta energía debió quemarse. Si el resultado concuerda con el Balance Nacional de Energía (BNE), entonces los datos son consistentes. Si no concuerda, hay algo que revisar.</p>
-
-<p><strong>Los números:</strong> En 2024, para las 7 ramas cubiertas, la energía implícita reconstruida cierra en la mayoría de los combustibles, pero faltan datos para GLP, keroseno y biomasa. Esto nos dice que o bien esos combustibles no se reportan bien en el RETC, o bien se usan en cantidades muy pequeñas para que el registro sea significativo.</p>
-
-<p><strong>¿Cómo se usa en el proyecto?</strong> Esta ficha es la "prueba de cobertura": si la energía implícita cierra bien para algunas ramas, podemos confiar en los cálculos de intensidad para esas categorías. Si no cierra, sabemos que ahí hay incertidumbre y las intensidades calculadas tendrán mayor margen de error.</p>
-
-<p><strong>Cosita importante:</strong> Los biocombustibles (biomasa) se cuentan como energía pero no generan emisiones fósiles, por eso a veces las razones parecen no cuadrar si no se separa bien lo biogénico de lo fósil.</p>
-</div>

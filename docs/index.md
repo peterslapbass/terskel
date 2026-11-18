@@ -32,34 +32,6 @@ Catorce categorías industriales, cinco fuentes públicas y una regla: ningún n
   <p><a href="{{ '/notas/glp-2023-inflado.html' | relative_url }}">Leer la nota</a></p>
 </div>
 
-<div class="tech-only">
-<h3>Datos técnicos completos</h3>
-<p>Toda la información detallada, fichas por fuente, indicadores y escenarios.</p>
-<ul>
-  <li>14 categorías industriales con su cobertura energética</li>
-  <li>Indicadores de intensidad física y económica</li>
-  <li>Escenarios a 2030 (congelado, eficiencia, descarbonización, recomposición)</li>
-  <li>Tornado de amplitudes por rama industrial</li>
-  <li>Fichas completas por fuente con fórmulas y suposiciones</li>
-</ul>
-</div>
-
-<div class="plain-only">
-<h3>¿En qué consiste Terskel? (versión explicada)</h3>
-<p>Terskel es un sitio que muestra cuánta contaminación saca la industria chilena al aire, basándose en datos oficiales. El año con más datos es el 2024.</p>
-<p><strong>Números clave:</strong></p>
-<ul>
-  <li>44,97 Megatoneladas de CO₂ fueron declaradas en 2024 por la industria</li>
-  <li>56% de esas emisiones corresponden al sector industrial (fábricas y empresas)</li>
-  <li>40% proviene de la generación de electricidad</li>
-  <li>4% corresponde al resto (servicios, agua, residuos y construcción)</li>
-</ul>
-<p>De las 14 categorías industriales, solo 4 tienen datos suficientes como para publicarse con confianza.</p>
-<p>El registro le imputa 0,2 tCO₂/TJ al Cobre, cuya energía principal es electricidad, no combustibles.</p>
-<p>El factor de emisión del GLP en 2023 estaba inflado, por eso usamos 2024 como año base.</p>
-<p>En resumen: <strong>el GLP de 2023 está "inflado 12×" porque el registro se equivocó, no porque las empresas quemaran más gas.</strong></p>
-</div>
-
 ## Notas de datos
 
 Errores, cortes y huecos que encontramos en las fuentes, y qué hicimos con cada uno. Varios son del registro; uno es de nuestra propia lectura.
@@ -86,13 +58,3 @@ Errores, cortes y huecos que encontramos en las fuentes, y qué hicimos con cada
 **Abierto:** cada cifra sale de un parquet versionado en el [repositorio](https://github.com/peterslapbass/terskel), y cada parquet de un script que está ahí mismo. Sin modelos, sin imputación de datos externos.
 
 Ninguna de las instituciones citadas (MMA, CNE, INE, BCCh) participa en el proyecto ni respalda sus conclusiones.
-
-<p style="font-size: .8rem; margin-top: 2rem;">
-<h4>Modo de visualización</h4>
-<p>Al hacer clic en el botón <strong>«Modo explicado»</strong> de la cabecera, alterna entre:</p>
-<ul>
-  <li><strong>Modo técnico</strong>: Muestra todos los datos, fichas y detalles técnicos.</li>
-  <li><strong>Modo explicado</strong>: Muestra este resumen en lenguaje llano con los números clave.</li>
-</ul>
-<p>Puedes hacer clic en el botón cuantas veces quieras para cambiar de modo.</p>
-</p>

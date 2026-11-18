@@ -4,7 +4,6 @@ title: "Ficha de fuente — Tipo de cambio (dólar observado, BCCh)"
 
 # Ficha de fuente — Tipo de cambio (dólar observado, BCCh)
 
-<div class="tech-only">
 <p><strong>Institución:</strong> Banco Central de Chile</p>
 <p><strong>Serie:</strong> F073.TCO.PRE.Z.D — dólar observado, diario</p>
 <p><strong>Portal:</strong> si3.bcentral.cl › CAP_TIPO_CAMBIO › DOLAR_OBS_ADO</p>
@@ -54,17 +53,3 @@ title: "Ficha de fuente — Tipo de cambio (dólar observado, BCCh)"
 <h3>Reproducción</h3>
 <pre><code>python src/ingest/fx.py && python src/normalize/fx.py
 </code></pre>
-</div>
-
-<div class="plain-only">
-<h3>¿Qué es el tipo de cambio y por qué importa?</h3>
-<p>En palabras simples: <strong>algunas empresas declaran sus ventas en dólares, no en pesos</strong>. Para saber cuánto producen realmente en pesos chilenos, necesitamos saber cuánto vale el dólar.</p>
-
-<p><strong>¿De dónde sacamos el tipo de cambio?</strong> Del Banco Central de Chile (BCCh), que publica el "dólar observado" todos los días. Tomamos el promedio mensual y anual para hacer los cálculos.</p>
-
-<p><strong>¿Por qué es importante?</strong> Hay empresas en la encuesta industrial (ENIA) que declaran sus ventas en dólares. Si no convertimos esos dólares a pesos, pensaríamos que producen mucho menos de lo que realmente producen. Sin el tipo de cambio, casi la mitad del valor de producción de la industria chilena quedaría invisible.</p>
-
-<p><strong>Los números:</strong> En 2024, el dólar promedió 943,58 pesos chilenos. Eso significa que cada dólar que una empresa declara equivale a unos 943 pesos.</p>
-
-<p><strong>¿Cómo lo verificamos?</strong> Comprobamos que los datos tengan sentido cruzándolos con la encuesta industrial. Por ejemplo, vemos que las empresas que declaran en dólares pagan sueldos por trabajador que, al convertirlos a pesos, tienen una relación lógica con las que declaran en pesos.</p>
-</div>

@@ -4,7 +4,6 @@ title: "Ficha de fuente — IPP Industria Manufacturera (INE)"
 
 # Ficha de fuente — IPP Industria Manufacturera (INE)
 
-<div class="tech-only">
 <p><strong>Institución:</strong> INE</p>
 <p><strong>Producto:</strong> Índice de Precios de Productor (IPP), Industria Manufacturera</p>
 <p><strong>Portal:</strong> ine.gob.cl › precios-e-inflacion › indice-de-precios-de-productor</p>
@@ -46,19 +45,3 @@ python src/normalize/ipp.py
 </code></pre>
 
 <p>Salidas: `data/processed/ine/ipp/year=YYYY/part-0.parquet`, `ipp_anual.parquet`, `reports/ipp_resumen.json`.</p>
-</div>
-
-<div class="plain-only">
-<h3>¿Qué es el Índice de Precios de Productor?</h3>
-<p>En palabras simples: es un índice que mide cómo cambian los precios de lo que fabrican las fábricas chilenas. Publicado por el INE, te dice si los precios de la industria están subiendo o bajando mes a mes.</p>
-
-<p><strong>¿Por qué nos importa?</strong> En este proyecto, el IPP nos sirve como "deflactor": toma los valores de producción que reportan las fábricas en pesos corrientes (con inflación) y los ajusta a precios de 2019. Esto permite comparar la producción real a lo largo de los años, sin que la inflación confunda las cifras.</p>
-
-<p><strong>¿Cómo funciona?</strong> El INE publica este índice cada mes para 15 divisiones de la industria (como comida, textiles, metalmecánica, etc.). El valor base es 100 para el año 2019. Si el índice está en 115, significa que los precios de la industria en promedio son un 15% más altos que en 2019.</p>
-
-<p><strong>Los números:</strong> En 2024, el índice promedio para la industria manufacturera estaba en 115,3 (base 2019 = 100). Esto significa que, en promedio, los precios de lo que fabrican las fábricas chilenas son un 15,3% más altos que hace 5 años.</p>
-
-<p><strong>¿Cómo se usa en este proyecto?</strong> Cuando miramos los datos de la ENIA (la encuesta a las fábricas), los valores de ventas están en pesos de cada año (con inflación). Para comparar entre años o calcular verdaderas variaciones de producción, aplicamos el IPP para "quitar" el efecto de la inflación y dejar los valores en precios de 2019.</p>
-
-<p><strong>Cosita importante:</strong> Solo cubre las 15 divisiones manufactureras que el INE publica. Algunas divisiones más específicas no tienen datos públicos detallados, así que para esas usamos el total de manufactura.</p>
-</div>

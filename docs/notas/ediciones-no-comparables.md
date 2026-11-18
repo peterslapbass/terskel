@@ -5,7 +5,6 @@ date: 2026-11-16
 
 # Las ediciones del RETC no son comparables
 
-<div class="tech-only">
 <p><strong>Qué encontramos.</strong> El CO₂ nacional validado del RETC cae de 65,4 Mt (2023) a 48,7 Mt (2024) y 47,0 Mt (2025). Una caída de 18,4 Mt en un año no la produce ninguna industria: la produce el archivo.</p>
 
 <p>Cada edición trae un defecto distinto y medible:</p>
@@ -30,24 +29,3 @@ date: 2026-11-16
 <p><strong>Lo que la regla no ve.</strong> Una planta que declara de menos en las tres ediciones —Huachipato, por ejemplo— no se detecta por comparación entre años. Ese hueco se cierra por otra vía: contrastar la energía implícita en el CO₂ contra el balance energético.</p>
 
 <p><strong>Cómo se reproduce.</strong> <code>python src/audit/retc_anomalias.py</code>.</p>
-</div>
-
-<div class="plain-only">
-<h3>¿Por qué las ediciones del RETC no se pueden comparar?</h3>
-
-<p>En palabras simples: <strong>las tres ediciones del registro (2023, 2024 y 2025) no son comparables entre sí</strong>. Cada una tiene errores distintos, y la caída de emisiones que aparenta no es real.</p>
-
-<p><strong>¿Qué pasó en cada edición?</strong></p>
-
-<ul>
-  <li><strong>2023:</strong> El gas licuado (GLP) estaba inflado 12 veces. Eso agregó 17 Mt de CO₂ que no existían realmente.</li>
-  <li><strong>2024:</strong> Una sola planta (Cartocor) declaró un valor 527 veces mayor que lo que normalmente declara.</li>
-  <li><strong>2025:</strong> La edición parecía tener muchos huecos (141 déficits) porque aún no estaba cerrada completamente.</li>
-</ul>
-
-<p><strong>¿Qué hicimos?</strong> Crear una regla única: si una planta declara un valor 10 veces mayor que lo que suele declarar, lo limitamos al valor medio de las otras dos ediciones. Nunca subimos un valor, solo bajamos los excesos. Si una planta declara menos de lo normal, lo dejamos tal cual, porque puede ser que la edición aún no esté completa.</p>
-
-<p><strong>¿Qué significa esto?</strong> No puedes comparar directamente las emisiones de 2023 con las de 2024 o 2025. Los cambios que ves no son reales: son errores del registro. Usamos 2024 como año de referencia porque es el más confiable.</p>
-
-<p><strong>En resumen:</strong> Las emisiones no cayeron de 65,4 a 47 Mt en tres años. Eso es un error del archivo, no una realidad industrial.</p>
-</div>

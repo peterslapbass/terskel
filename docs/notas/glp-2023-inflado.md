@@ -5,7 +5,6 @@ date: 2026-11-17
 
 # El GLP de 2023 está inflado 12×
 
-<div class="tech-only">
 <p><strong>Qué encontramos.</strong> El CO₂ que el RETC atribuye al gas licuado de petróleo (GLP) se multiplica por doce entre una edición y otra, sin que cambie el número de declaraciones:</p>
 
 <table>
@@ -26,20 +25,3 @@ date: 2026-11-17
 <p><strong>Qué queda.</strong> 2023 pasa de 65,4 a 48,4 Mt declaradas-ajustadas: 17,0 Mt, el 26% del total de esa edición, es un artefacto. Por eso el año de referencia es 2024 y 2023 se usa solo como contraste. El bloque GLP de 2023 no sirve para comparar nada, y cualquier serie 2022–2025 que lo use sin cribar muestra una caída que no ocurrió.</p>
 
 <p><strong>Cómo se reproduce.</strong> <code>python src/audit/retc_anomalias.py</code>, que escribe <code>data/processed/retc/anomalias.parquet</code> y <code>reports/retc_anomalias.md</code>.</p>
-</div>
-
-<div class="plain-only">
-<h3>¿Qué pasó con el gas licuado (GLP) en 2023?</h3>
-
-<p>En palabras simples: <strong>el registro de emisiones se equivocó en 2023</strong>. Dijo que las plantas quemaban 12 veces más GLP que en 2024, pero eso no es cierto.</p>
-
-<p><strong>La prueba es clara:</strong> el número de declaraciones y de plantas es casi el mismo en 2023 y 2024 (unos 3.100 declaraciones y 1.500 plantas). Si las empresas realmente hubieran quemado 12 veces más gas, habrían declarado mucho más. Como no lo hicieron, el error está en el registro, no en las empresas.</p>
-
-<p><strong>¿Por qué pasó?</strong> El RETC usa un "factor de emisión" para calcular cuánto CO₂ produce quemar GLP. En 2023, ese factor estaba mal calculado y era 12 veces más alto de lo que debería ser. Como resultado, el CO₂ del GLP se vio inflado artificialmente.</p>
-
-<p><strong>¿Qué hicimos?</strong> No inventamos datos ni corregimos el factor (no tenemos el original). Lo que hicimos fue limitar los valores extremos: para cada planta que declaró un valor desmesurado en 2023, usamos el valor medio que ella misma declaró en 2024 y 2025. Así evitamos que un error del registro se vea como una realidad industrial.</p>
-
-<p><strong>¿Qué significa esto?</strong> Las 17 Mt de CO₂ que parecían haber emitido las plantas por GLP en 2023 no existen realmente. Es un error del archivo. Por eso usamos 2024 como año de referencia y tratamos a 2023 solo como comparación, no como dato confiable.</p>
-
-<p>En resumen: <strong>el GLP de 2023 está "inflado 12×" porque el registro se equivocó, no porque las empresas quemaran más gas.</strong></p>
-</div>

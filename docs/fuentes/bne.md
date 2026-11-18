@@ -4,7 +4,6 @@ title: "Ficha de fuente — BNE (Balance Nacional de Energía, CNE)"
 
 # Ficha de fuente — BNE (Balance Nacional de Energía, CNE)
 
-<div class="tech-only">
 <p><strong>Institución:</strong> CNE / Ministerio de Energía</p>
 <p><strong>Portal:</strong> https://energiaabierta.cl/categorias-estadistica/balance-energetico</p>
 <p><strong>Cobertura descargada:</strong> 2023, 2024</p>
@@ -65,26 +64,3 @@ python src/audit/bne_resumen.py
 </code></pre>
 
 <p>Salidas: `data/processed/cne/bne/year=YYYY/part-0.parquet`, `bne_balance.parquet`, `ciiu4_map.parquet`, `reports/normalizacion_bne.json`, `reports/bne_industria_ramas.csv`.</p>
-</div>
-
-<div class="plain-only">
-<h3>¿Qué es el Balance Nacional de Energía?</h3>
-<p>En palabras simples: es una contabilidad de toda la energía que entra y sale de Chile. Elaborada por la CNE (Comisión Nacional de Energía, del Ministerio de Energía), cuenta cuánta energía hay en el país, de dónde viene y cómo se usa en cada sector.</p>
-
-<p><strong>¿Por qué nos importa?</strong> Porque para saber cuánto contamina cada industria, primero necesitamos saber cuánta energía usa. El BNE es la fuente que nos dice cuánta energía quema cada sector industrial chileno.</p>
-
-<p><strong>¿Qué hay dentro?</strong> El BNE divide la energía en tres grandes secciones: oferta (qué entra al país), transformación (qué se convierte, como petróleo a gasolina) y demanda (qué se usa finalmente). Dentro de la demanda, hay 14 ramas industriales, incluyendo el cobre, la siderurgia, la celulosa, la petroquímica, el cemento y la leche, entre otras.</p>
-
-<p><strong>¿Cuánta energía usa la industria?</strong> En 2024, la industria y minería chilena usó alrededor de 122.199 TJ de energía final. La manufactura (fábricas de papel, cemento, acero, petroquímica, láctea y otras) usó unos 236.894 TJ, y la minería (cobre, salitre, hierro y otras) usó unos 237.254 TJ.</p>
-
-<p><strong>¿Cuáles son los problemas?</strong> Hay varias cosas a tener en cuenta:</p>
-<ul>
-  <li>Solo hay datos a nivel nacional, no por región.</li>
-  <li>El BNE agrupa las industrias en 7 categorías manufactureras, no en las 24 divisiones que usa el sistema CIIU internacional.</li>
-  <li>La categoría "Industrias Varias" es un cajón residual que agrupa casi la mitad de la energía manufacturera, por lo que es muy heterogénea.</li>
-  <li>Incluye biomasa y licor negro (residuos de la celulosa), que no generan emisiones fósiles pero sí se cuentan como energía.</li>
-  <li>El BNE revisa sus números con el tiempo, por lo que los datos de 2024 pueden cambiar en el futuro.</li>
-</ul>
-
-<p><strong>¿Qué significa todo esto para el proyecto?</strong> Usamos el BNE como referencia de cuánta energía usa cada industria. Luego comparamos eso con lo que el registro de emisiones (RETC) declara como CO₂. Si hay una diferencia grande, significa que hay algo que no se está declarando o que no se está midiendo bien.</p>
-</div>

@@ -150,12 +150,6 @@ p > img.figura, img.figura { display: block; }
 .pie { color: var(--suave); font-size: .82rem; border-top: 1px solid var(--linea); padding-top: 1.2rem; }
 .pie p { margin: .35rem 0; }
 
-/* Modo plain language */
-[data-mode="simple"] .tech-only { display: none !important; }
-[data-mode="simple"] .plain-only { display: block !important; }
-[data-mode="technical"] .tech-only { display: block !important; }
-[data-mode="technical"] .plain-only { display: none !important; }
-
 @media (max-width: 34rem) {
   body { font-size: 16px; }
   h1 { font-size: 1.5rem; }

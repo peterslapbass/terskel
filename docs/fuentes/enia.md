@@ -4,7 +4,6 @@ title: "Ficha de fuente — ENIA (microdatos por establecimiento)"
 
 # Ficha de fuente — ENIA (microdatos por establecimiento)
 
-<div class="tech-only">
 <p><strong>Institución:</strong> INE — Encuesta Nacional Industrial Anual</p>
 <p><strong>Portal:</strong> ine.gob.cl › industria-energia-y-construccion › estructura-de-la-industria-manufacturera</p>
 <p><strong>Cobertura descargada:</strong> 2023, 2024</p>
@@ -68,21 +67,3 @@ python src/normalize/enia.py
 </code></pre>
 
 <p>Salidas: `data/processed/ine/enia/year=YYYY/part-0.parquet`, `enia_column_map.parquet`, `reports/enia_resumen.json`.</p>
-</div>
-
-<div class="plain-only">
-<h3>¿Qué es la Encuesta Nacional Industrial Anual?</h3>
-<p>En palabras simples: es una encuesta que el Instituto Nacional de Estadísticas (INE) realiza cada año a las fábricas y plantas manufactureras de Chile con 10 o más trabajadores. El objetivo es conocer cómo está la industria chilena: cuánto producen, cuánto ganan, cuánto gastan y cuántas personas trabajan ahí.</p>
-
-<p><strong>¿Por qué nos importa?</strong> Porque es la fuente principal de datos sobre la producción industrial en Chile. Con ella podemos medir el consumo de energía, los ingresos y los gastos de las fábricas, lo cual es esencial para calcular la intensidad energética y de emisiones.</p>
-
-<p><strong>¿A quiénes cubre?</strong> A unas 3.000 fábricas manufactureras en las 16 regiones del país. No incluye las microempresas (menos de 10 trabajadores) ni la minería a gran escala (que tiene otras encuestas).</p>
-
-<p><strong>¿Qué información tenemos?</strong> Para cada fábrica sabemos: su razón social, qué tipo de industria es (según el sistema CIIU), cuántos trabajadores tiene, cuánto factura (ingresos), cuánto gastan en materiales y energía, cuánto pagan de sueldos y cuánto tienen de activos. Todo esto en pesos chilenos y también en dólares para las empresas extranjeras.</p>
-
-<p><strong>Los números clave:</strong> En 2024, las 3.132 fábricas encuestadas reportaron un valor total de producción de aproximadamente 84.215 millones de pesos chilenos. La remuneración promedio por trabajador fue de 2.355 mil pesos al mes.</p>
-
-<p><strong>¿Cómo se usan los datos?</strong> En este proyecto, los datos de ENIA nos dicen cuánta energía usa cada fábrica. Luego comparamos con el registro de emisiones (RETC) para ver si hay coherencia. Si una fábrica usa mucha energía pero declara pocas emisiones, puede que esté faltando información o usando combustibles que no se reportan.</p>
-
-<p><strong>¿Qué cosas hay que tener en cuenta?</strong> La encuesta no cubre las empresas más pequeñas, algunos rubros (como servicios manufactureros) tienen menos cobertura y algunas empresas declaran en dólares, lo que requiere conversión al tipo de cambio actual.</p>
-</div>

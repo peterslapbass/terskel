@@ -5,7 +5,6 @@ date: 2026-11-11
 
 # Metanol y petroquímica comparten código, no destino
 
-<div class="tech-only">
 <p><strong>Qué encontramos.</strong> El Balance Nacional de Energía separa «Producción de Metanol» de «Petroquímica». El RETC no puede: Methanex y las plantas petroquímicas comparten la división CIIU 2011. Al fusionarlas —la única opción con el registro— el bloque declara un CO₂ que implica <strong>22.252 TJ</strong>, mientras el balance le asigna <strong>8.947 TJ</strong>:</p>
 
 <table>
@@ -24,18 +23,3 @@ date: 2026-11-11
 <p><strong>Por qué no se arregla con un factor.</strong> Si se usara la energía del balance como denominador, el resultado sería 168 tCO₂/TJ; si se usara la energía implícita en el CO₂, sería tautológico. Ninguna de las dos es una intensidad industrial. Y el CO₂ de Methanex (0,37 Mt) no está separado del de Enax Río Loa (0,63 Mt) en el origen: el registro declara la misma división para ambos.</p>
 
 <p><strong>Qué queda.</strong> Pedir al MMA el cruce por establecimiento con CIIU a 4 dígitos, o cruzar contra el catálogo de Methanex. Mientras no exista, la nota metodológica debe decir que la petroquímica chilena no tiene intensidad publicable con estas dos fuentes.</p>
-</div>
-
-<div class="plain-only">
-<h3>¿Por qué la petroquímica no tiene intensidad publicable?</h3>
-
-<p>En palabras simples: <strong>el registro no puede separar dos industrias distintas</strong>: metanol y petroquímica.</p>
-
-<p><strong>¿Qué pasó?</strong> El Balance Nacional de Energía tiene categorías separadas para «Producción de Metanol» y «Petroquímica». Pero el registro de emisiones (RETC) no puede separarlas porque Methanex y las plantas petroquímicas comparten el mismo código industrial (CIIU 2011). Cuando las forzamos a estar juntas, los números no cuadran: el CO₂ que el registro asigna implica 22.252 TJ de energía, pero el balance solo le asigna 8.947 TJ. Eso da una cobertura del 249%, algo imposible.</p>
-
-<p><strong>¿Qué significa esto?</strong> No es que la petroquímica sea ineficiente. Es que el numerador (CO₂ del registro) y el denominador (energía del balance) no hablan de lo mismo. Se sumaron secciones del balance que no se debían sumar, y eso hace que el denominador sea incorrecto.</p>
-
-<p><strong>¿Qué hicimos?</strong> Fusionamos las dos categorías porque no hay forma de separarlas con este registro, pero las marcamos como <strong>no publicables</strong>. La fila queda en las tablas con su cifra, su cobertura y su motivo, para que se sepa que no tiene intensidad publicable.</p>
-
-<p><strong>¿Qué queda por hacer?</strong> Pedir al MMA que haga el cruce por establecimiento con un código más detallado (CIIU a 4 dígitos), o que cruce la información con el catálogo de Methanex. Mientras no exista esa información, la petroquímica chilena no tiene intensidad publicable con estas dos fuentes.</p>
-</div>
