@@ -144,9 +144,10 @@ Flujo:
    `docs/datos.md` y `docs/resultados/*.md` desde el manifiesto y los reportes.
 3. `python src/reports/verifica.py` — front matter, enlaces, figuras y rastros de
    rutas absolutas. Falla si algo no se puede publicar.
-4. `python src/reports/publicar.py` — arma `_publicar/` con la estructura exacta del
-   repo (README, LICENSE, `docs/`, `src/`, `data/processed/`, `data/raw/manifest.csv`,
-   `reports/`, `requirements.txt`). Esa carpeta es la que se sube.
+4. `python src/reports/publicar.py` — **opcional**: arma un paquete `_publicar/`
+   con la estructura del repo (README, LICENSE, `docs/`, `src/`,
+   `data/processed/`, `data/raw/manifest.csv`, `reports/`, `requirements.txt`).
+   Ese paquete no se versiona: el sitio se publica desde `docs/`.
 
 `data/raw` queda fuera del repo público: son ~180 MB de XLSX con datos por
 establecimiento. El manifiesto entrega URL, tamaño y sha256 de cada archivo.
