@@ -1,0 +1,163 @@
+:root {
+  --tinta: #16181d;
+  --suave: #5b6270;
+  --linea: #e3e6ea;
+  --fondo: #fdfdfc;
+  --azul: #1f4e79;
+  --rojo: #9b2c2c;
+  --verde: #2e7d5b;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--tinta);
+  font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+a { color: var(--azul); text-underline-offset: 2px; }
+a:hover { text-decoration: none; }
+
+.barra {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem 1.4rem;
+  align-items: baseline;
+  justify-content: space-between;
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 1.1rem 1.25rem;
+}
+
+.marca { text-decoration: none; color: var(--tinta); }
+.nombre { font-weight: 700; letter-spacing: .01em; }
+.lema { color: var(--suave); font-size: .9rem; margin-left: .4rem; }
+
+.menu { display: flex; flex-wrap: wrap; gap: .9rem; font-size: .92rem; }
+.menu a { text-decoration: none; color: var(--suave); }
+.menu a:hover { color: var(--azul); }
+
+.contenido {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: .5rem 1.25rem 3rem;
+}
+
+h1 { font-size: 1.75rem; line-height: 1.25; margin: 1.2rem 0 .6rem; letter-spacing: -.01em; }
+h2 { font-size: 1.22rem; margin: 2.2rem 0 .6rem; letter-spacing: -.005em; }
+h3 { font-size: 1.02rem; margin: 1.6rem 0 .4rem; }
+p { margin: .7rem 0; }
+
+ul, ol { padding-left: 1.2rem; }
+li { margin: .25rem 0; }
+
+code {
+  font: .88em ui-monospace, SFMono-Regular, Consolas, monospace;
+  background: #f1f3f5;
+  padding: .1em .3em;
+  border-radius: 3px;
+}
+
+pre {
+  background: #f6f7f8;
+  border: 1px solid var(--linea);
+  border-radius: 6px;
+  padding: .8rem 1rem;
+  overflow-x: auto;
+  font-size: .86rem;
+}
+pre code { background: none; padding: 0; }
+
+blockquote {
+  margin: 1rem 0;
+  padding: .1rem 0 .1rem 1rem;
+  border-left: 3px solid var(--linea);
+  color: var(--suave);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .84rem;
+  margin: 1rem 0 1.4rem;
+  display: block;
+  overflow-x: auto;
+}
+th, td { padding: .38rem .5rem; border-bottom: 1px solid var(--linea); text-align: left; white-space: nowrap; }
+th { font-weight: 600; color: var(--suave); border-bottom-color: #cfd4da; }
+tbody tr:last-child td { border-bottom: none; }
+
+/* cifras de portada */
+.cifras {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: .9rem;
+  margin: 1.6rem 0 2rem;
+}
+.cifra {
+  border: 1px solid var(--linea);
+  border-radius: 8px;
+  padding: .9rem 1rem 1rem;
+  background: #fff;
+}
+.cifra .n {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  line-height: 1.15;
+}
+.cifra .t { display: block; color: var(--suave); font-size: .84rem; margin-top: .35rem; }
+.cifra.rojo .n { color: var(--rojo); }
+.cifra.azul .n { color: var(--azul); }
+
+/* destacado de portada */
+.destacado {
+  border: 1px solid var(--linea);
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  margin: 1.6rem 0;
+  background: #fff;
+}
+.destacado .etiqueta {
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--suave);
+}
+.destacado h3 { margin: .4rem 0 .5rem; font-size: 1.1rem; }
+
+/* listas de notas y resultados */
+.lista { list-style: none; padding: 0; margin: 1rem 0; }
+.lista li {
+  display: flex;
+  gap: .8rem;
+  padding: .55rem 0;
+  border-bottom: 1px solid var(--linea);
+  align-items: baseline;
+}
+.lista time { color: var(--suave); font-size: .8rem; min-width: 5.2rem; }
+.lista a { text-decoration: none; }
+
+.figura { margin: 1.4rem 0; }
+.figura img { max-width: 100%; height: auto; }
+p > img.figura, img.figura { display: block; }
+
+.pie { color: var(--suave); font-size: .82rem; border-top: 1px solid var(--linea); padding-top: 1.2rem; }
+.pie p { margin: .35rem 0; }
+
+/* Modo plain language */
+[data-mode="simple"] .tech-only { display: none !important; }
+[data-mode="simple"] .plain-only { display: block !important; }
+[data-mode="technical"] .tech-only { display: block !important; }
+[data-mode="technical"] .plain-only { display: none !important; }
+
+@media (max-width: 34rem) {
+  body { font-size: 16px; }
+  h1 { font-size: 1.5rem; }
+  .lema { display: none; }
+}

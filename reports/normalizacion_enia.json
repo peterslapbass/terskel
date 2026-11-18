@@ -1,0 +1,96 @@
+[
+  {
+    "anio": 2023,
+    "filas": 3151,
+    "archivo": "data/raw/enia/base/2023/base-enia-2023.csv",
+    "ids_unicos": 3151,
+    "regiones": 16,
+    "ciiu_codigos": 113,
+    "ciiu_nivel": [
+      {
+        "ciiu_nivel": "clase",
+        "len": 2640
+      },
+      {
+        "ciiu_nivel": "division",
+        "len": 133
+      },
+      {
+        "ciiu_nivel": "grupo",
+        "len": 201
+      },
+      {
+        "ciiu_nivel": "seccion",
+        "len": 177
+      }
+    ],
+    "imputados": 76,
+    "moneda": [
+      {
+        "moneda": "CLP",
+        "len": 2950
+      },
+      {
+        "moneda": "USD",
+        "len": 201
+      }
+    ],
+    "moneda_codigos": [
+      4,
+      5
+    ],
+    "vbp_nulos": 0,
+    "vbp_cero": 0,
+    "va_negativo": 179,
+    "identidad_vbp_ci_va": 1.0,
+    "vbp_clp_miles": 38617915388.0,
+    "vbp_usd_miles": 34417766.0
+  },
+  {
+    "anio": 2024,
+    "filas": 3132,
+    "archivo": "data/raw/enia/base/2024/base-enia-2024.csv",
+    "ids_unicos": 3132,
+    "regiones": 16,
+    "ciiu_codigos": 114,
+    "ciiu_nivel": [
+      {
+        "ciiu_nivel": "clase",
+        "len": 2632
+      },
+      {
+        "ciiu_nivel": "division",
+        "len": 129
+      },
+      {
+        "ciiu_nivel": "grupo",
+        "len": 205
+      },
+      {
+        "ciiu_nivel": "seccion",
+        "len": 166
+      }
+    ],
+    "imputados": 165,
+    "moneda": [
+      {
+        "moneda": "CLP",
+        "len": 2917
+      },
+      {
+        "moneda": "USD",
+        "len": 215
+      }
+    ],
+    "moneda_codigos": [
+      4,
+      5
+    ],
+    "vbp_nulos": 0,
+    "vbp_cero": 0,
+    "va_negativo": 131,
+    "identidad_vbp_ci_va": 1.0,
+    "vbp_clp_miles": 39149978209.0,
+    "vbp_usd_miles": 35068228.0
+  }
+]

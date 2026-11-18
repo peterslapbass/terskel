@@ -1,0 +1,36 @@
+[
+  {
+    "anio": 2023,
+    "filas": 1590,
+    "energeticos": 29,
+    "items": 53,
+    "consumo_final_total_tcal": 327090.2094075541,
+    "industria_total_tcal": 121315.7074698206,
+    "checks": [
+      {
+        "anio": 2023,
+        "tipo": "industria_total_vs_ramas",
+        "total_hoja": 121315.7074698206,
+        "suma_ramas": 121315.7074698206,
+        "dif_rel": 0.0
+      }
+    ]
+  },
+  {
+    "anio": 2024,
+    "filas": 1590,
+    "energeticos": 29,
+    "items": 53,
+    "consumo_final_total_tcal": 329249.84008485154,
+    "industria_total_tcal": 122198.93018419654,
+    "checks": [
+      {
+        "anio": 2024,
+        "tipo": "industria_total_vs_ramas",
+        "total_hoja": 122198.93018419654,
+        "suma_ramas": 122198.93018419652,
+        "dif_rel": 0.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,8 @@
+rama_bne,establecimientos,share_usd,vbp_clp_miles,va_clp_miles,energia_tj,tj_por_billon_vbp,tj_por_billon_va,calidad_mapeo,fx_clp_usd,fx_fuente
+COMERCIO Y SERVICIO,194,0.03608247422680412,1755109399.1,877941093.7,,,,"",943.58,BCCh (promedio anual del dólar observado)
+Industrias Varias,2363,0.06517139229792636,43694870925.96,11617482108.239998,112854.36417235278,2582.782870867888,9714.184461046676,"residual (divisiones 1, 2, 10-16, 18, 21-32)",943.58,BCCh (promedio anual del dólar observado)
+Papel y Celulosa,140,0.10714285714285714,5332910438.940001,1617581545.7800002,105252.2440939398,19736.360716918454,65067.65879502353,directa (división 17),943.58,BCCh (promedio anual del dólar observado)
+Cemento,4,0.0,110849826.0,15033394.0,10486.745767609435,94603.17752424287,697563.4223123158,directa (clase 2394),943.58,BCCh (promedio anual del dólar observado)
+Siderurgia,25,0.04,1450587644.08,-151683384.88,5233.190549605232,3607.6348581641587,-34500.750057399644,directa (grupo 241),943.58,BCCh (promedio anual del dólar observado)
+Industria Láctea,42,0.0,2719805293.0,537196985.0,1674.5284744383052,615.6795410127563,3117.1591077308544,directa (clase 1050),943.58,BCCh (promedio anual del dólar observado)
+Petroquímica,198,0.12121212121212122,13000877893.999998,2451760743.82,203.0405021888796,15.617445517474193,82.81415823329053,revisar: el BNE declara solo ~200 TJ para la división 20,943.58,BCCh (promedio anual del dólar observado)

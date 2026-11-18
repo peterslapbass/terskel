@@ -36,8 +36,8 @@ Cada etapa reescribe sus parquet completos. Los archivos crudos no se tocan nunc
 # 1. fuentes (manifiesto con URL y sha256)
 python src/ingest/retc.py --years 2023 2024 2025
 python src/normalize/retc.py --years 2023 2024 2025
-python src/normalize/bne.py --years 2023 2024 2025
-python src/normalize/enia.py --years 2023 2024 2025
+python src/normalize/bne.py --years 2023 2024
+python src/normalize/enia.py --years 2023 2024
 python src/ingest/fx.py && python src/normalize/fx.py
 python src/ingest/ipp.py && python src/normalize/ipp.py
 
@@ -100,7 +100,7 @@ serie 2023–2025.
 
 ### Regla 1: Cada cifra tiene una ficha
 Número, unidad, cobertura, supuestos y limitaciones deben aparecer juntos. Un dato
-isolado sin ficha no es público.
+aislado sin ficha no es público.
 
 ### Regla 2: El año de referencia es 2024
 Solo se publican indicadores y escenarios con 2024 como año base. 2023 y 2025 sirven

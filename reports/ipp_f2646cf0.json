@@ -1,0 +1,128 @@
+[
+ {
+  "Titulo": "serie empalmada agricultura y ganadería XLSX",
+  "Descripcion": "",
+  "Peso": "14705",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-agricultura-y-ganadería-xlsx.xlsx?sfvrsn=37e17bed_122",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada analítico industria sin cobre XLSX",
+  "Descripcion": "",
+  "Peso": "14564",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-analítico-industria-sin-cobre-xlsx.xlsx?sfvrsn=ad8d261e_121",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada industrias XLSX",
+  "Descripcion": "",
+  "Peso": "14647",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-industrias-xlsx.xlsx?sfvrsn=ebb30cea_120",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada industria manufacturera XLSX",
+  "Descripcion": "",
+  "Peso": "14495",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-industria-manufacturera-xlsx.xlsx?sfvrsn=59beddf2_121",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada ipdega XLSX",
+  "Descripcion": "",
+  "Peso": "14578",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-ipdega-xlsx.xlsx?sfvrsn=217ce565_120",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada materiales e insumos de construcción XLSX",
+  "Descripcion": "",
+  "Peso": "14425",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-materiales-e-insumos-de-construcción-xlsx.xlsx?sfvrsn=3c09f84f_119",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada minería XLSX",
+  "Descripcion": "",
+  "Peso": "14716",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-minería-xlsx.xlsx?sfvrsn=31397cd7_118",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada agricultura y ganadería CSV",
+  "Descripcion": "",
+  "Peso": "3492",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-agricultura67f6cb6b9c9f4d4880d3fc410fc51a5c.csv?sfvrsn=5d602a4b_121&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada analítico industria sin cobre CSV",
+  "Descripcion": "",
+  "Peso": "3427",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-analítico-industria-sin-cobree0c812f9298a41c6a5cb708bea98e91a.csv?sfvrsn=27ef12e3_120&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada industrias CSV",
+  "Descripcion": "",
+  "Peso": "3427",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-ipp-industrias631af104f89a49c9a7ef57d58a289f8c.csv?sfvrsn=5d8d5f0c_120&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada industria manufacturera CSV",
+  "Descripcion": "",
+  "Peso": "3434",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-ipp-manufacturaf3f25b627d344053882a256ae7e6506f.csv?sfvrsn=a9cfb70a_126&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada ipdega CSV",
+  "Descripcion": "",
+  "Peso": "3419",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-ipdega96b70e9df2ee4ff0bc27b970674526d5.csv?sfvrsn=e5cd32d9_120&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada materiales e insumos de construcción CSV",
+  "Descripcion": "",
+  "Peso": "2441",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-materialesc15f56f21bf84bda8b29ad52b6af7c2d.csv?sfvrsn=511b5dbe_118&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "serie empalmada minería CSV",
+  "Descripcion": "",
+  "Peso": "3459",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/series-empalmadas-base-2019/serie-empalmada-ipp-mineríae779d0d32ae040598f15c23cacb7c483.csv?sfvrsn=a27f8428_118&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ }
+]

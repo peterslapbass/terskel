@@ -1,0 +1,23 @@
+[
+  {
+    "year": 2023,
+    "rows": 339543,
+    "cols": 47,
+    "notes": [],
+    "file": "data/raw/retc/fuente_puntual/2023/original.xlsx"
+  },
+  {
+    "year": 2024,
+    "rows": 348274,
+    "cols": 47,
+    "notes": [],
+    "file": "data/raw/retc/fuente_puntual/2024/original.xlsx"
+  },
+  {
+    "year": 2025,
+    "rows": 340799,
+    "cols": 47,
+    "notes": [],
+    "file": "data/raw/retc/fuente_puntual/2025/original.xlsx"
+  }
+]

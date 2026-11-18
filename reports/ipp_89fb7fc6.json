@@ -1,0 +1,128 @@
+[
+ {
+  "Titulo": "Índice de Precios Agricultura y Ganadería XLS",
+  "Descripcion": "",
+  "Peso": "758737",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/índice-de-precios-agricultura-y-ganadería-xls.xlsx?sfvrsn=3d76d815_146",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Índice de Precios Agricultura y Ganadería CSV",
+  "Descripcion": "",
+  "Peso": "774070",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/índice-de-precios-agricultura-y-ganadería-csv.csv?sfvrsn=f5317358_144&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Analítico Industrias sin Cobre XLS",
+  "Descripcion": "",
+  "Peso": "11340",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/analítico-industrias-sin-cobre-xls.xlsx?sfvrsn=fd1345d0_146",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Analítico Industrias sin Cobre CSV",
+  "Descripcion": "",
+  "Peso": "3349",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/analítico-industrias-sin-cobre-csv.csv?sfvrsn=33ee437c_144&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Índice de Precios de Materiales e Insumos de Construcción XLS",
+  "Descripcion": "",
+  "Peso": "540910",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/índice-de-precios-de-materiales-e-insumos-de-construcción-xls.xlsx?sfvrsn=71d8b03f_146",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Índice de Precios de Materiales e Insumos de Construcción CSV",
+  "Descripcion": "",
+  "Peso": "498047",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/índice-de-precios-de-materiales-e-insumos-de-construcción-csv.csv?sfvrsn=47f91af7_145&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Industria Manufacturera XLS",
+  "Descripcion": "",
+  "Peso": "2919210",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/manufactura-xls.xlsx?sfvrsn=605f1dfe_147",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Industria Manufacturera CSV",
+  "Descripcion": "",
+  "Peso": "4377806",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/industria-manufacturera-csv.csv?sfvrsn=be7300d1_146&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Industrias XLS",
+  "Descripcion": "",
+  "Peso": "11390",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/industrias-xls.xlsx?sfvrsn=b95424fe_144",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Industrias CSV",
+  "Descripcion": "",
+  "Peso": "3339",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/industrias-csv.csv?sfvrsn=f1af7d2a_143&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Ipdega XLS",
+  "Descripcion": "",
+  "Peso": "117908",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/ipdega-xls.xlsx?sfvrsn=6301eaef_143",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Ipdega CSV",
+  "Descripcion": "",
+  "Peso": "173270",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/ipdega-csv.csv?sfvrsn=816d7ff1_142&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Minería XLS",
+  "Descripcion": "",
+  "Peso": "304917",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/minería-xls.xlsx?sfvrsn=e8b3dffc_146",
+  "Tipo": ".XLSX",
+  "Periodo": null
+ },
+ {
+  "Titulo": "Minería CSV",
+  "Descripcion": "",
+  "Peso": "355401",
+  "Fecha": null,
+  "Url": "http://www.ine.gob.cl/docs/default-source/indice-de-precios-de-productor/cuadros-estadisticos/base-anual-2014-100/minería-csv.csv?sfvrsn=84fe7d9e_144&download=true",
+  "Tipo": ".CSV",
+  "Periodo": null
+ }
+]

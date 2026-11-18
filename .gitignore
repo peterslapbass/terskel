@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jekyll
+docs/_site/
+docs/.jekyll-cache/
+docs/.sass-cache/
+docs/vendor/
+docs/.bundle/
+
+# Datos crudos: se descargan y se verifican con el sha256 del manifiesto
+data/raw/*
+!data/raw/manifest.csv
+
+# Paquete publicable generado por src/reports/publicar.py
+_publicar/
+
+# Respaldos locales
+*.bundle
