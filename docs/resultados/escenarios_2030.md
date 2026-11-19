@@ -57,6 +57,7 @@ concentra el 94% del CO₂ de las cuatro ramas, así que el total lo mueve sobre
 que le pasa a Papel; la contracción de Cemento y Siderurgia se ve en la estructura,
 no en el agregado.
 
+
 | Rama | VBP 2024 | VBP 2030 | Peso 2024 | Peso 2030 | CO₂ 2024 | CO₂ 2030 | Var. CO₂ |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Papel y Celulosa | 3,54 | 4,11 | 57,9% | 61,1% | 17.485.123 | 18.422.515 | +5,4% |
@@ -93,6 +94,11 @@ no en el agregado.
 | Crecimiento Cemento | 19.752.885 | 19.961.096 | 208.211 |
 | Crecimiento Industria Láctea | 19.835.558 | 19.877.828 | 42.270 |
 | Crecimiento Siderurgia | 19.842.452 | 19.856.150 | 13.698 |
+
+## Prueba de robustez: Siderurgia
+El escenario principal incluye sólo las ramas con intensidad física publicable. Esta prueba agrega Siderurgia para ver si la conclusión depende de ella.
+Su energía declarada cubre cerca de 8% de lo que el balance le asigna, así que su resultado no es confiable. Lo que la prueba responde es cuánto pesa: la amplitud en el tornado es de unas 14 mil toneladas de CO₂ en 2030, frente a unos 4,2 Mt de Papel y Celulosa.
+Si el resultado cambia poco, la conclusión no depende de los datos de Siderurgia.
 
 ## Límites
 
