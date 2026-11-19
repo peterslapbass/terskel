@@ -113,7 +113,8 @@ su VBP en la ENIA cubre solo 4 plantas.
 
 ### Prueba de robustez: Siderurgia
 El escenario publicado incluye Siderurgia, aunque su energía declarada cubre cerca de 8% de lo que el balance le asigna, así que su resultado no es confiable. 
-Quitarla reduce el CO₂ de 2030 en el escenario de descarbonización en 56.997 t (0,29% del total), hasta 19.791.962 t. Si el efecto es pequeño, la conclusión no depende de los datos de Siderurgia.
+En el escenario de descarbonización, su aporte a 2030 es de 56.997 t de CO₂ (0,29% del total). Sin ella, el total sería 19.791.962 t. 
+Como el efecto es menor a 1%, la conclusión no depende de sus datos.
 
 ### El factor de emisión es agregado
 Se modela como un parámetro agregado por rama; no distingue sustitución de
