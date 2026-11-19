@@ -95,9 +95,12 @@ no en el agregado.
 | Crecimiento Industria Láctea | 19.835.558 | 19.877.828 | 42.270 |
 | Crecimiento Siderurgia | 19.842.452 | 19.856.150 | 13.698 |
 
-## Prueba de robustez: Siderurgia
+## Prueba de robustez: Siderurgia {#prueba-robustez-siderurgia}
+
 El escenario principal incluye sólo las ramas con intensidad física publicable. Esta prueba agrega Siderurgia para ver si la conclusión depende de ella.
-Su energía declarada cubre cerca de 8% de lo que el balance le asigna, así que su resultado no es confiable. Lo que la prueba responde es cuánto pesa: la amplitud en el tornado es de unas 14 mil toneladas de CO₂ en 2030, frente a unos 4,2 Mt de Papel y Celulosa.
+Su energía declarada cubre cerca de 8% de lo que el balance le asigna, así que su resultado no es confiable. Motivo de la exclusión en el escenario principal: [ver límites](#siderurgia-fuera).
+**Qué mide esta prueba:** la diferencia en el CO₂ total de 2030 entre el escenario principal y el mismo escenario con Siderurgia incluida, con su base observada de 2024 (0,07 Mt) y su crecimiento central.
+**Resultado:** pendiente de cálculo. Cuando esté, se reporta aquí la diferencia en toneladas y en porcentaje del total.
 Si el resultado cambia poco, la conclusión no depende de los datos de Siderurgia.
 
 ## Límites
@@ -115,6 +118,12 @@ no de total.
 ### Cemento y la intensidad económica
 Cemento entra en energía y CO₂ (datos sólidos) pero no en la intensidad económica:
 su VBP en la ENIA cubre solo 4 plantas.
+
+### Siderurgia fuera del escenario principal {#siderurgia-fuera}
+
+Siderurgia no entra en el escenario principal porque su energía declarada cubre
+cerca de 8% de lo que el balance le asigna. Su efecto se prueba aparte en
+[la prueba de robustez](#prueba-robustez-siderurgia).
 
 ### El factor de emisión es agregado
 Se modela como un parámetro agregado por rama; no distingue sustitución de
