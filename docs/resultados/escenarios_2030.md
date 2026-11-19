@@ -99,8 +99,11 @@ no en el agregado.
 
 El escenario principal incluye sólo las ramas con intensidad física publicable. Esta prueba agrega Siderurgia para ver si la conclusión depende de ella.
 Su energía declarada cubre cerca de 8% de lo que el balance le asigna, así que su resultado no es confiable. Motivo de la exclusión en el escenario principal: [ver límites](#siderurgia-fuera).
+
 **Qué mide esta prueba:** la diferencia en el CO₂ total de 2030 entre el escenario principal y el mismo escenario con Siderurgia incluida, con su base observada de 2024 (0,07 Mt) y su crecimiento central.
-**Resultado:** pendiente de cálculo. Cuando esté, se reporta aquí la diferencia en toneladas y en porcentaje del total.
+
+**Resultado:** incluir Siderurgia suma 56.997 t de CO₂ en 2030 al escenario de descarbonización (0,29% del total). Sin ella, el total sería 19.791.962 t. La conclusión no cambia.
+
 Si el resultado cambia poco, la conclusión no depende de los datos de Siderurgia.
 
 ## Límites
